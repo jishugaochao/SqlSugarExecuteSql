@@ -25,6 +25,7 @@ namespace SqlSugarExecuteSql
             List<StudentModel> studentModels = new List<StudentModel>();
             studentModels = ConvertToList(dt);
             Console.WriteLine("Hello World!");
+            Console.ReadKey();
 
         }
 
